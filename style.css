@@ -9,8 +9,8 @@ body{
 }
 h1{
     color: #023047;
-    font-size: 5rem;
-    margin-top: 5rem;
+    font-size: 25px;
+    margin-top:35px;
 }
 .container{
     height:70vh ;
@@ -23,7 +23,7 @@ h1{
     height: 14vmin;
     width: 14vmin;
     background-color: #219ebc;
-    font-size: 8vmin;
+    font-size: 12vmin;
     text-align: center;
    border-style: none;
     border-radius: 15px;
@@ -61,21 +61,28 @@ h1{
 }
 #msg {
     color: #0c3b02;
-    font-size: 5rem;
+    font-size: 40px;
     margin: 20px;
   
    
 }
 .msg-container{
-    height: 100vmin;
+    height: 10vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:40px 0px 20px 0px;
     
   
 }
 
 .hide{
      display: none;
+}
+.cgame{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
